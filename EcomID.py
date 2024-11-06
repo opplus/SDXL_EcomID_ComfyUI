@@ -634,7 +634,14 @@ class ApplyEcomID:
                 c.append(n)
             cond_uncond.append(c)
             is_cond = False
-
+        eva_clip = None
+        pulid_model = None
+        self.instantid = None
+        face_helper = None
+        del eva_clip
+        del pulid_model
+        del self.instantid
+        del face_helper
         return(work_model, cond_uncond[0], cond_uncond[1], )
 
 class ApplyEcomIDAdvanced(ApplyEcomID):
