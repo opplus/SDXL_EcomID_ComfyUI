@@ -69,9 +69,13 @@ You can see more showcases in the [SDXL-EcomID](https://huggingface.co/alimama-c
 
 ## Basic Workflow
 
-In the `examples` directory you'll find the basic workflow.
+In the `examples` directory, you'll find both the basic workflow and the dedicated face-swapping workflow.
 
 ![workflow](examples/ecomid_basic_workflow.png)
+
+
+![workflow](examples/ecomid_only_face_workflow.png)
+
 
 ## Installation
 
